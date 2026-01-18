@@ -1,0 +1,17 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Forge run
+run/
+run-data/
+runClient/
+runServer/
+
+# Logs
+logs/
