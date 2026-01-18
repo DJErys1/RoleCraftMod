@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "SIS",
+    "PSP"
+  ],
+  "key": {
+    "P": { "item": "minecraft:paper" },
+    "S": { "item": "minecraft:string" },
+    "I": { "item": "minecraft:iron_ingot" }
+  },
+  "result": {
+    "item": "rolecraft:medkit",
+    "count": 1
+  }
+}

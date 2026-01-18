@@ -1,0 +1,131 @@
+{
+  "rolecraft.cmd.help.header": "RoleCraft commands:",
+  "rolecraft.cmd.help.line1": "/rolecraft role  - shows your role",
+  "rolecraft.cmd.help.line2": "/rolecraft role <player>  - shows player's role (OP only)",
+  "rolecraft.cmd.help.line3": "/rolecraft role level  - shows role level and XP",
+  "rolecraft.cmd.help.line4": "/rolecraft role level <player>  - shows player's level and XP (OP only)",
+  "rolecraft.cmd.help.line5": "/rolecraft set role|job ... /rolecraft remove job ... (OP/Mayor)",
+
+  "rolecraft.cmd.adminui.todo": "Admin UI is not implemented yet.",
+
+  "rolecraft.cmd.error.nodata": "RoleCraft: no role/job data for this player.",
+
+  "rolecraft.cmd.role.self": "Your role: %s",
+  "rolecraft.cmd.role.other": "%s's role: %s",
+
+  "rolecraft.cmd.level.self": "Role level: %s | XP: %s",
+  "rolecraft.cmd.level.other": "%s's level: %s | XP: %s",
+
+  "rolecraft.cmd.set.role.source": "Set %s's role to %s",
+  "rolecraft.cmd.set.role.target": "Your role has been set to %s",
+
+  "rolecraft.cmd.set.job.source": "Set %s's job to %s",
+  "rolecraft.cmd.set.job.target": "Your job has been set to %s",
+
+  "rolecraft.cmd.remove.job.source": "Removed %s's job",
+  "rolecraft.cmd.remove.job.target": "Your job has been removed",
+
+  "rolecraft.cmd.set.rolexp.target": "Set role XP to %s.",
+  "rolecraft.cmd.set.rolexp.source": "Set %s's role XP to %s.",
+  "rolecraft.cmd.set.rolelevel.target": "Set role level to %s.",
+  "rolecraft.cmd.set.rolelevel.source": "Set %s's role level to %s.",
+  "rolecraft.cmd.clear.target": "Reset role/job/level/xp.",
+  "rolecraft.cmd.clear.source": "Reset RoleCraft data for %s.",
+
+  "rolecraft.medic.not_medic": "You are not a Medic.",
+  "rolecraft.medic.full_hp": "You already have full HP.",
+  "rolecraft.medic.already_healing": "You are already healing someone.",
+  "rolecraft.medic.too_far": "Target is too far.",
+  "rolecraft.medic.no_uses": "This medkit has no uses left.",
+
+  "rolecraft.medic.heal.start": "Started healing: %s",
+  "rolecraft.medic.heal.started_by": "A Medic started healing you: %s",
+
+  "rolecraft.medic.heal.success": "Healing finished: %s",
+  "rolecraft.medic.heal.successed_by": "You were healed by: %s",
+
+  "rolecraft.medic.heal.cancel.target_left": "Healing cancelled: target left.",
+  "rolecraft.medic.heal.cancel.no_item": "Healing cancelled: you must hold a medkit.",
+  "rolecraft.medic.heal.cancel.not_medic": "Healing cancelled: you are no longer a Medic.",
+  "rolecraft.medic.heal.cancel.too_far": "Healing cancelled: target walked too far away.",
+  "rolecraft.medic.heal.cancel.moved": "Healing cancelled: you moved.",
+  "rolecraft.medic.heal.cancel.hit": "Healing cancelled: someone took damage.",
+
+  "rolecraft.medic.medkit.self.start": "Using medkit...",
+  "rolecraft.medic.medkit.self.done": "Treatment finished.",
+
+  "rolecraft.bandage.self.start": "Applying bandage...",
+  "rolecraft.bandage.self.done": "Bandage applied.",
+
+  "rolecraft.progress.heal": "%s %s%%",
+  "rolecraft.tooltip.common.shift_more": "Hold SHIFT to see more",
+  "rolecraft.ui.you": "You",
+
+  "item.rolecraft.medkit": "Medkit",
+  "item.rolecraft.bandage": "Bandage",
+  "item.rolecraft.handcuffs": "Handcuffs",
+
+  "rolecraft.tooltip.bandage.title": "Bandage",
+  "rolecraft.tooltip.bandage.line1": "Fast, basic wound treatment.",
+  "rolecraft.tooltip.bandage.shift1": "Right click and hold to heal yourself (small heal).",
+  "rolecraft.tooltip.bandage.shift2": "Tip: Medkit heals better and longer.",
+
+  "rolecraft.tooltip.medkit.title": "Medkit",
+  "rolecraft.tooltip.medkit.line1": "Medical kit for qualified medics.",
+  "rolecraft.tooltip.medkit.uses": "Uses left: %s/%s",
+  "rolecraft.tooltip.medkit.shift1": "Right click and hold to heal yourself.",
+  "rolecraft.tooltip.medkit.shift2": "SHIFT + Right click a player to start healing (15s).",
+  "rolecraft.tooltip.medkit.shift3": "Healing cancels if you move, get hit, or walk too far.",
+
+  "rolecraft.tooltip.handcuffs.title": "Handcuffs",
+  "rolecraft.tooltip.handcuffs.line1": "Tool to restrain suspects.",
+  "rolecraft.tooltip.handcuffs.shift1": "Right click a player to cuff/uncuff (with time).",
+  "rolecraft.tooltip.handcuffs.shift2": "SHIFT + Right click a cuffed player to search inventory.",
+  "rolecraft.tooltip.handcuffs.shift3": "Cuffing cancels if you move, get hit, or walk too far.",
+
+  "rolecraft.police.not_police": "You are not a Police officer.",
+  "rolecraft.police.busy": "You are already performing an action.",
+  "rolecraft.police.too_far": "You are too far away.",
+
+  "rolecraft.police.cuff.start": "Cuffing: %s",
+  "rolecraft.police.cuff.started_by": "%s is trying to cuff you.",
+  "rolecraft.police.cuff.done": "Cuffed player: %s",
+  "rolecraft.police.cuffed": "You were cuffed by %s.",
+
+  "rolecraft.police.uncuff.start": "Uncuffing: %s",
+  "rolecraft.police.uncuff.started_by": "%s is trying to uncuff you.",
+  "rolecraft.police.uncuff.done": "Uncuffed player: %s",
+  "rolecraft.police.uncuffed": "You were uncuffed by %s.",
+
+  "rolecraft.police.cancel.target_left": "Cancelled: target left.",
+  "rolecraft.police.cancel.no_item": "Cancelled: you are not holding handcuffs.",
+  "rolecraft.police.cancel.too_far": "Cancelled: too far away.",
+  "rolecraft.police.cancel.moved": "Cancelled: you moved.",
+  "rolecraft.police.cancel.hit": "Cancelled: someone took damage.",
+
+  "rolecraft.police.cuffed.no_break": "You can't break blocks while cuffed.",
+  "rolecraft.police.cuffed.no_interact": "You can't interact while cuffed.",
+
+  "rolecraft.police.search.title": "Search: %s",
+
+  "rolecraft.blacksmith.enchant.only_blacksmith": "Only a Blacksmith can use the enchanting table.",
+  "rolecraft.blacksmith.enchant.need_lvl10": "You need Blacksmith level 10 to use enchanting.",
+  "rolecraft.blacksmith.enchant.locked": "This enchanting tier is locked for your level.",
+  "rolecraft.blacksmith.enchant.power_too_high": "Too many bookshelves (max: %s, you have: %s).",
+  "rolecraft.blacksmith.craft_enchant_forbidden": "Only a Blacksmith (min. level 10) can craft an enchanting table.",
+
+  "rolecraft.blacksmith.work.start": "Working... (%s s)",
+  "rolecraft.blacksmith.work.progress": "Working... (%s s)",
+  "rolecraft.blacksmith.work.done": "Done.",
+  "rolecraft.blacksmith.work.cancel": "Cancelled.",
+  "rolecraft.blacksmith.work.blocked": "You are working. Press ESC to cancel.",
+  "rolecraft.blacksmith.only_blacksmith_block": "Only Blacksmith can use this.",
+  "rolecraft.blacksmith.craft.forbidden": "You can't craft this item.",
+
+  "rolecraft.work.done": "Work finished.",
+  "rolecraft.work.cancel.too_far": "Work canceled: too far.",
+
+  "rolecraft.blacksmith.only_blacksmith_tools": "Only Blacksmith can do this.",
+  "rolecraft.blacksmith.work.too_far": "Cancelled: too far.",
+
+}

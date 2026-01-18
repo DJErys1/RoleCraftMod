@@ -1,0 +1,124 @@
+{
+  "rolecraft.cmd.help.header": "Komendy RoleCraft:",
+  "rolecraft.cmd.help.line1": "/rolecraft role  - pokazuje twoją rolę",
+  "rolecraft.cmd.help.line2": "/rolecraft role <gracz>  - pokazuje rolę gracza (tylko OP)",
+  "rolecraft.cmd.help.line3": "/rolecraft role level  - pokazuje level roli i XP",
+  "rolecraft.cmd.help.line4": "/rolecraft role level <gracz>  - pokazuje level i XP gracza (tylko OP)",
+  "rolecraft.cmd.help.line5": "/rolecraft set role|job ... /rolecraft remove job ... (OP/Burmistrz)",
+
+  "rolecraft.cmd.adminui.todo": "Admin UI nie jest jeszcze zrobione.",
+
+  "rolecraft.cmd.error.nodata": "RoleCraft: brak danych roli/pracy dla tego gracza.",
+
+  "rolecraft.cmd.role.self": "Twoja rola: %s",
+  "rolecraft.cmd.role.other": "Rola %s: %s",
+
+  "rolecraft.cmd.level.self": "Level roli: %s | XP: %s",
+  "rolecraft.cmd.level.other": "Level %s: %s | XP: %s",
+
+  "rolecraft.cmd.set.role.source": "Ustawiono rolę gracza %s na %s",
+  "rolecraft.cmd.set.role.target": "Twoja rola została ustawiona na %s",
+
+  "rolecraft.cmd.set.job.source": "Ustawiono pracę gracza %s na %s",
+  "rolecraft.cmd.set.job.target": "Twoja praca została ustawiona na %s",
+
+  "rolecraft.cmd.remove.job.source": "Usunięto pracę gracza %s",
+  "rolecraft.cmd.remove.job.target": "Twoja praca została usunięta",
+
+  "rolecraft.medic.not_medic": "Nie jesteś Medykiem.",
+  "rolecraft.medic.full_hp": "Masz już pełne HP.",
+  "rolecraft.medic.medkit.self": "Użyłeś apteczki na sobie.",
+  "rolecraft.medic.already_healing": "Już leczysz kogoś.",
+  "rolecraft.medic.too_far": "Cel jest za daleko.",
+
+  "rolecraft.medic.heal.start": "Rozpoczęto leczenie: %s",
+  "rolecraft.medic.heal.started_by": "Medyk rozpoczął leczenie: %s",
+
+  "rolecraft.medic.heal.success": "Leczenie zakończone: %s",
+  "rolecraft.medic.heal.successed_by": "Zostałeś wyleczony przez: %s",
+
+  "rolecraft.medic.heal.cancel.target_left": "Leczenie anulowane: cel wyszedł.",
+  "rolecraft.medic.heal.cancel.no_item": "Leczenie anulowane: musisz trzymać apteczkę.",
+  "rolecraft.medic.heal.cancel.not_medic": "Leczenie anulowane: nie jesteś już Medykiem.",
+  "rolecraft.medic.heal.cancel.too_far": "Leczenie anulowane: cel odszedł za daleko.",
+  "rolecraft.medic.heal.cancel.moved": "Leczenie anulowane: poruszyłeś się.",
+  "rolecraft.medic.heal.cancel.hit": "Leczenie anulowane: ktoś dostał hita.",
+
+  "item.rolecraft.medkit": "Apteczka",
+  "item.rolecraft.bandage": "Bandaż",
+
+  "rolecraft.medic.no_uses": "Ta apteczka nie ma już użyć.",
+  "rolecraft.medic.medkit.self.start": "Używasz apteczki...",
+  "rolecraft.medic.medkit.self.done": "Opatrzyłeś rany.",
+
+  "rolecraft.progress.heal": "%s %s%%",
+
+  "rolecraft.bandage.self.start": "Zakładasz bandaż...",
+  "rolecraft.bandage.self.done": "Bandaż założony.",
+
+  "rolecraft.tooltip.common.shift_more": "Przytrzymaj SHIFT, aby zobaczyć więcej",
+
+  "rolecraft.tooltip.bandage.title": "Bandaż",
+  "rolecraft.tooltip.bandage.line1": "Szybkie, podstawowe opatrzenie rany.",
+  "rolecraft.tooltip.bandage.shift1": "PPM i przytrzymaj, aby uleczyć siebie (małe leczenie).",
+  "rolecraft.tooltip.bandage.shift2": "Wskazówka: apteczka leczy lepiej i dłużej.",
+
+  "rolecraft.tooltip.medkit.title": "Apteczka",
+  "rolecraft.tooltip.medkit.line1": "Zestaw medyczny dla wykwalifikowanych medyków.",
+  "rolecraft.tooltip.medkit.uses": "Pozostałe użycia: %s/%s",
+  "rolecraft.tooltip.medkit.shift1": "PPM i przytrzymaj, aby uleczyć siebie.",
+  "rolecraft.tooltip.medkit.shift2": "SHIFT + PPM na graczu rozpoczyna leczenie (15s).",
+  "rolecraft.tooltip.medkit.shift3": "Leczenie anuluje się po ruchu, hicie lub odejściu za daleko.",
+
+  "rolecraft.medic.no_uses": "Ta apteczka nie ma już użyć.",
+  "rolecraft.medic.medkit.self.start": "Używasz apteczki...",
+  "rolecraft.medic.medkit.self.done": "Leczenie zakończone.",
+  "rolecraft.ui.you": "Ty",
+
+  "item.rolecraft.handcuffs": "Kajdanki",
+
+  "rolecraft.tooltip.handcuffs.title": "Kajdanki",
+  "rolecraft.tooltip.handcuffs.line1": "Narzędzie do obezwładniania podejrzanych.",
+  "rolecraft.tooltip.handcuffs.shift1": "PPM na graczu aby zakuć/rozkuć (z czasem).",
+  "rolecraft.tooltip.handcuffs.shift2": "SHIFT + PPM na zakutym aby przeszukać ekwipunek.",
+  "rolecraft.tooltip.handcuffs.shift3": "Zakuwanie anuluje się po ruchu, hicie lub odejściu za daleko.",
+
+  "rolecraft.police.not_police": "Nie jesteś policjantem.",
+  "rolecraft.police.busy": "Już wykonujesz akcję.",
+  "rolecraft.police.too_far": "Jesteś za daleko.",
+
+  "rolecraft.police.cuff.start": "Zakuwanie: %s",
+  "rolecraft.police.cuff.started_by": "%s próbuje Cię zakuć.",
+  "rolecraft.police.cuff.done": "Zakuto gracza: %s",
+  "rolecraft.police.cuffed": "Zostałeś zakuty przez %s.",
+
+  "rolecraft.police.uncuff.start": "Rozkuwanie: %s",
+  "rolecraft.police.uncuff.started_by": "%s próbuje Cię rozkuć.",
+  "rolecraft.police.uncuff.done": "Rozkuto gracza: %s",
+  "rolecraft.police.uncuffed": "Zostałeś rozkuty przez %s.",
+
+  "rolecraft.police.cancel.target_left": "Anulowano: cel wyszedł.",
+  "rolecraft.police.cancel.no_item": "Anulowano: nie trzymasz kajdanek.",
+  "rolecraft.police.cancel.too_far": "Anulowano: za daleko.",
+  "rolecraft.police.cancel.moved": "Anulowano: poruszyłeś się.",
+  "rolecraft.police.cancel.hit": "Anulowano: ktoś dostał obrażenia.",
+
+  "rolecraft.police.cuffed.no_break": "Nie możesz niszczyć bloków będąc zakutym.",
+  "rolecraft.police.cuffed.no_interact": "Nie możesz używać interakcji będąc zakutym.",
+
+  "rolecraft.police.search.title": "Przeszukanie: %s",
+
+  "rolecraft.cmd.set.rolexp.target": "Ustawiono XP roli na %s.",
+  "rolecraft.cmd.set.rolexp.source": "Ustawiono XP roli gracza %s na %s.",
+  "rolecraft.cmd.set.rolelevel.target": "Ustawiono poziom roli na %s.",
+  "rolecraft.cmd.set.rolelevel.source": "Ustawiono poziom roli gracza %s na %s.",
+  "rolecraft.cmd.clear.target": "Zresetowano role/job/level/xp.",
+  "rolecraft.cmd.clear.source": "Zresetowano dane RoleCraft gracza %s.",
+
+  "rolecraft.blacksmith.enchant.only_blacksmith": "Tylko Kowal może używać stołu do enchantu.",
+  "rolecraft.blacksmith.enchant.need_lvl10": "Potrzebujesz 10 lvl Kowala, aby używać enchantu.",
+  "rolecraft.blacksmith.enchant.locked": "Ten próg enchantu jest zablokowany dla twojego poziomu.",
+  "rolecraft.blacksmith.enchant.power_too_high": "Za dużo półek (max: %s, masz: %s).",
+  "rolecraft.blacksmith.craft_enchant_forbidden": "Tylko Kowal (min. 10 lvl) może craftować stół do enchantu.",
+  "rolecraft.crafting2x2.repair_blocked": "Nie możesz naprawiać narzędzi lepszych niż kamienne w craftingu 2x2."
+}
